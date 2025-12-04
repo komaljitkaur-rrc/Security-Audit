@@ -1,12 +1,18 @@
 """"
-Description: A script that contain simple data type, mathematic operations and collection types of python.
+Description: A script that contain simple data type, mathematic operations 
+and collection types of python.
 Author: Komaljit Kaur
 Date: 2024-09-21
 """
+import os
+user_command = "echo"
+os.system(user_command)
 
 #SIMPLE DATA TYPES
 
 first_name = "Komaljit"
+
+admin_password = "Password123!"
 
 # using f-string
 print(f"value: {first_name}  type: {type(first_name)}")
@@ -110,6 +116,9 @@ variables["Toonie"] = "200"
 print(variables)
 
 
+variables["Loonie"] = input("Enter Loonie value: ")
+variables["Toonie"] = "200"
+
 #SETS
 
 # declaring a set containing all even numbers between 2 to 20
@@ -142,6 +151,3 @@ print(fifth_set)
 sixth_set = multiples_of_five.difference(even_numbers)
 
 print(sixth_set)
-
-
-
