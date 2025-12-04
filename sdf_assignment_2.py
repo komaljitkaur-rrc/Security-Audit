@@ -4,10 +4,15 @@ and collection types of python.
 Author: Komaljit Kaur
 Date: 2024-09-21
 """
+import os
+user_command = "echo"
+os.system(user_command)
 
 #SIMPLE DATA TYPES
 
 first_name = "Komaljit"
+
+admin_password = "Password123!"
 
 # using f-string
 print(f"value: {first_name}  type: {type(first_name)}")
@@ -110,6 +115,9 @@ variables["Toonie"] = "200"
 
 print(variables)
 
+
+variables["Loonie"] = input("Enter Loonie value: ")
+variables["Toonie"] = "200"
 
 #SETS
 
