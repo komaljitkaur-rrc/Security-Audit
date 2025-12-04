@@ -1,5 +1,6 @@
 """"
-Description: A script that contain simple data type, mathematic operations and collection types of python.
+Description: A script that contain simple data type, mathematic operations 
+and collection types of python.
 Author: Komaljit Kaur
 Date: 2024-09-21
 """
@@ -142,6 +143,3 @@ print(fifth_set)
 sixth_set = multiples_of_five.difference(even_numbers)
 
 print(sixth_set)
-
-
-
